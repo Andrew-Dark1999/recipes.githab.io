@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    background-color: crimson;
+    font-size: 65px;
+}
+h3{
+    background-color: darkblue;
+    font-size: 95px;
+}
+button{
+    width: 20%;
+    margin: 50px;
+}
+p{
+    font-size: large;
+}
