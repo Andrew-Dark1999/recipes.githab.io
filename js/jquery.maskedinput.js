@@ -55,7 +55,8 @@
                     if (settings.completed) {
                         for (var i = firstNonMaskPos; lastRequiredNonMaskPos >= i; i++) if (tests[i] && buffer[i] === getPlaceholder(i)) return;
                         settings.completed.call(input);
-                    }
+                    } 
+//                     вв
                 }
                 function getPlaceholder(i) {
                     return settings.placeholder.charAt(i < settings.placeholder.length ? i : 0);
